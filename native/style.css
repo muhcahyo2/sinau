@@ -1,0 +1,310 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html, body{
+	margin:0;
+	background:	#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+ font-family: "Helvetica Neue";
+ src: url('HelveticaNeue-ThinCond.otf');
+}
+.clear{
+  clear: both;
+}
+nav{
+  height: 76px;
+  /* border-bottom: 1px solid black; */
+}
+#brand-logo{
+  margin-left: 100px;
+  max-width: 200px;
+  display: block;
+}
+#brand-logo img{
+  width: 160px;
+  padding: 15px 0;
+}
+.menu{
+  margin-right: 150px;
+  margin-top: -76px;
+  float: right;
+}
+.menu li{
+  list-style: none;
+  float: left;
+}
+.menu a{
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 15px 0px;
+  margin: 0 0 0 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #808080;
+  font-weight: 300;
+  font-family: 'Helvetica Neue',Arial,;
+}
+.banner{
+  margin: 0;
+  width: 100%;
+  height: 700px;
+  background: url('slide-reneasia-1.jpg') no-repeat;
+  background-attachment: fixed;
+  /* border: 1px solid; */
+}
+.section{
+  width: 70%;
+  margin: 0 auto;
+}
+.section-text{
+  width: 40%;
+  padding-top: 240px;
+  font-family: 'Poppins';
+}
+.section-text h2{
+  padding-top: 0!important;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: left!important;
+  color:#0196da;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.btn-green{
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  padding: 12px;
+  border:1px solid transparent;
+  border-radius: 4px;
+  background: #a6ce39;
+  color:#fff;
+  line-height: normal;
+}
+.btn-green:hover{
+  color: #333;
+  cursor: pointer;
+}
+.about{
+  background: #f7f7f7;
+  widows: 100%;
+}
+.wrap{
+  width: 50%;
+  margin:0;
+}
+.wrap-text{
+  padding: 80px 100px 0px 200px;;
+  font-family:  'Poppins';
+}
+.wrap-text h2{
+  font-size:25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+.wrap-text h1{
+  font-size: 36px;
+  color: #0196da;
+  margin-top: 5px;
+  font-weight: 600;
+  line-height: 1;
+}
+.wrap-text p{
+  font-size:20px;
+  color:#333333;
+  font-weight: 300;
+}
+.wrap-text p:last-child{
+  padding-right: 100px;
+}
+#line{
+  width: 60%;
+  position: relative;
+  height: 1px;
+  background: #0196da;
+  margin:10px auto;
+  float: left;
+  margin-bottom: 30px;
+}
+.gallery{
+  width: 50%;
+}
+#services{
+  width: 85%;
+  margin: 0 auto;
+  background: #fff;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 40px;
+}
+.services-title{
+  margin-top:100px;
+  text-align: center;
+}
+.services-title h2{
+  text-decoration: underline;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #0196da;
+}
+.services-title p{
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+.services-list {
+  vertical-align: text-top!important;
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+.card{
+  width: 13.2%;
+  min-height: 180px;
+  border:1px solid #ededed;
+  margin-right: 1%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: #333333;
+  float: left;
+}
+.card-image{
+  padding: 10px 22% 20px 20%;
+}
+.card-image img{
+  width: 90%;
+}
+h2.btn{
+  text-align: center;
+  color: #707070;
+  margin-bottom: 20px;
+  padding: 10px;
+  transition: 0.2s;
+  font-size: 17px;
+}
+h2.btn:hover{
+  background: #0196da;
+  color: #ffffff;
+  transition: 0.3s;
+}
+#relation{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+#relation img{
+  padding: 10px;
+}
+#kontak{
+  background: #f7f7f7;
+  margin-top: 40px;
+  padding-top:50px;
+  font-family: 'Poppins';
+}
+.wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+#kontak-kiri{
+  width: 24%;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  /* float: left; */
+}
+#kontak-kiri h2{
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #0196da;
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+#kontak-kiri p{
+  line-height: 1.5;
+  font-size: 28px;
+  color: #333333;
+  margin: 0 0 10px;
+  padding: 0 0 20px;
+}
+#kontak-kanan{
+  width: 72%;
+  /* margin: 0 auto; */
+  padding: 10px;
+  display: inline-block;
+  color: #ccc;
+}
+#kontak-kanan h2{
+  font-size: 16px;
+  padding-bottom: 40px;
+  /* padding-top: 15px; */
+}
+.kontak-input-kiri{
+  display: inline-block;
+  width: 49%;
+}
+.kontak-input-kiri input{
+  width: 90%;
+  margin: 0 0 20px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+.kontak-input-kanan{
+  display: inline-block;
+  width: 49%;
+}
+.kontak-input-kanan textarea{
+  position: relative;
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-height: 100px;
+}
+.kontak-input-kanan input[type='submit']{
+  width: 100%;
+  padding: 10px 18px;
+  font-size: 16px;
+  border: 1px solid #0196da;
+  border-radius: 3px;
+  color: #fff;
+  background: #0196da;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+.kontak-input-kanan input[type='submit']:hover{
+  background: #fff;
+  color: #000000;
+  border: 1px solid #000;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer{
+  background: #e8e8e8;
+  color: #cccccc;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.footer-right{
+  width: 48%;
+  display: inline-block;
+  position: relative;
+}
+.footer-left{
+  display: inline-block;
+  width: 40%;
+  padding: 30px;
+}
+.footer-right img{
+  width: 30px;
+  padding-left: 30px;
+  float: right;
+}
