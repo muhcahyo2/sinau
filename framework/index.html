@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-pricingtable/dist/css/bulma-pricingtable.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <section class="home-top">
-      <div class="container">
         <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
               <h1>PicCafe</h1>
             </a>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" datatarget="navMenu">
+            <a role="button" class="navbar-burger has-text-light burger" aria-label="menu" aria-expanded="false" datatarget="navMenu">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -37,8 +39,9 @@
               </div>
             </div>
           </div>
-
-        </nav>
+        </div>
+      </nav>
+      <div class="container">
         <div class="banner">
           <div class="columns">
             <div class="column is-dekstop is-two-fifths is-offset-one-fifth" background="red">
@@ -62,7 +65,7 @@
         <div class="tag-line">
           <div class="columns">
             <div class="column is-half is-offset-one-quarter">
-              <h2 class="has-text-centered">
+              <h2 class="has-text-centered title is-6">
                 Dispatched entreaties boisterous say why stimulated.
                 Cartain forbade picture now pravent carreied she get
                 see sitting. up twenty limits as months.
@@ -74,13 +77,11 @@
           <div class="columns">
             <div class="column">
               <div class="card shadow-hover">
-                <div class="card-image">
-                  <figure class="image is-64x64">
-                    <img src="image/Head.png">
-                  </figure>
-                </div>
                  <div class="card-content">
-                   <div class="media-content">
+                   <figure class="image is-64x64">
+                     <img src="image/Head.png">
+                    </figure>
+                   <div class="media-content has-text-justified">
                      <p class="title is-4">Creative Design</p>
                      <p class="subtitle is-6">Increasing impression interested expression he my at Respect invited request charmed me warrant to. Expect nopretty as do though so genius.</p>
                    </div>
@@ -89,13 +90,11 @@
             </div>
             <div class="column">
               <div class="card shadow-hover">
-                <div class="card-image">
-                  <figure class="image is-64x64">
-                    <img src="image/Head.png">
-                  </figure>
-                </div>
                  <div class="card-content">
-                   <div class="media-content">
+                   <figure class="image is-64x64">
+                     <img src="image/Head.png">
+                   </figure>
+                   <div class="media-content has-text-justified">
                      <p class="title is-4">clean layout</p>
                      <p class="subtitle is-6">Increasing impression interested expression he my at Respect invited request charmed me warrant to. Expect nopretty as do though so genius.</p>
                    </div>
@@ -104,13 +103,11 @@
             </div>
             <div class="column">
               <div class="card shadow-hover">
-                <div class="card-image">
-                  <figure class="image is-64x64">
-                    <img src="image/Head.png">
-                  </figure>
-                </div>
                  <div class="card-content">
-                   <div class="media-content">
+                   <figure class="image is-64x64">
+                     <img src="image/Head.png">
+                   </figure>
+                   <div class="media-content has-text-justified">
                      <p class="title is-4">Special Service</p>
                      <p class="subtitle is-6">Increasing impression interested expression he my at Respect invited request charmed me warrant to. Expect nopretty as do though so genius.</p>
 
@@ -120,22 +117,306 @@
             </div>
           </div>
           <div class="about">
-            <div class="columns">
-              <div class="column"><img class="shadow-hover" src="image/hp-left.png" alt=""> </div>
-              <div class="column has-text-justified">
+            <div class="columns is-multiline">
+              <div class="column is-half"><img class="shadow-hover" src="image/hp-left.png" alt=""> </div>
+              <div class="column is-half has-text-justified about-range">
                 <small class="is-family-secondary has-text-weight-semibold">About PicCafe</small>
-                <h2 class="has-text-weight-bold">Get your best product for your Business & Agency purpose</h2>
+                <h2 class="title is-4">Get your best product for your Business & Agency purpose</h2>
                 <p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
   on if indulgence. Exeter talked in agreed spirit no he unable do. Betrayed shut-in Vicinity it unpacked in.</p><br>
-                <small></small>
+                <small>
+                  <b class="title is-6">Ui/Ux Desing</b><br>
+                  <img src="image/icon.gif" alt=""><p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an.</p>
+                </small>
+                <div class="clear"></div>
+                <small>
+                  <b class="title is-6">Business Analytics</b><br>
+                  <img src="image/icon.gif" alt=""><p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an.</p>
+                </small>
+                <div class="clear"></div>
+                <small>
+                  <b class="title is-6">Property Exchange</b><br>
+                  <img src="image/icon.gif" alt=""><p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an.</p>
+                </small>
+                <div class="clear"></div>
+                <a class="button is-rounded btn-orange" style="margin-top:30px;">
+                  <strong>About More</strong>
+                </a>
               </div>
+              <div class="column has-text-justified is-half about-range">
+                <small class="is-family-secondary has-text-weight-semibold">About PicCafe</small>
+                <h2 class="title is-4">Get your best product for your Business & Agency purpose</h2>
+                <p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
+  on if indulgence. Exeter talked in agreed spirit no he unable do. Betrayed shut-in Vicinity it unpacked in.</p><br>
+                <small>
+                  <b class="title is-6">Ui/Ux Desing</b><br>
+                  <img src="image/icon.gif" alt=""><p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an.</p>
+                </small>
+                <div class="clear"></div>
+                <small>
+                  <b class="title is-6">Business Analytics</b><br>
+                  <img src="image/icon.gif" alt=""><p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an.</p>
+                </small>
+                <div class="clear"></div>
+                <small>
+                  <b class="title is-6">Property Exchange</b><br>
+                  <img src="image/icon.gif" alt=""><p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an.</p>
+                </small>
+                <div class="clear"></div>
+                <a class="button is-rounded btn-orange" style="margin-top:30px;">
+                  <strong>About More</strong>
+                </a>
+              </div>
+              <div class="column has-text-right is-half"><img class="shadow-hover" src="image/hp-right.png" alt=""> </div>
+            </div>
+          </div>
+         </div>
+        </section>
+        <section class="gallery">
+          <div class="text-screen column is-half is-offset-one-quarter">
+            <h2 class="has-text-centered is-half title is-4">Apps Screenshots</h2>
+            <p class="has-text-centered is-half">Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
+  on if indulgence.</p>
+          </div>
+          <div class="columns">
+            <div class="column shadow-hover">
+              <img src="image/screenshot-1.jpg" alt="">
+            </div>
+            <div class="column shadow-hover">
+              <img src="image/screenshoot-2.png" alt="">
+            </div>
+            <div class="column shadow-hover">
+              <img src="image/screenshoot-3.png" alt="">
+            </div>
+            <div class="column shadow-hover">
+              <img src="image/screenshot-4.jpg" alt="">
+            </div>
+            <div class="column shadow-hover">
+              <img src="image/screnshot-5.png" alt="">
             </div>
           </div>
         </section>
       </div>
+      <section class="feed">
+        <div class="text-screen column is-one-third is-offset-one-third">
+          <h2 class="has-text-centered has-text-light is-half title is-4">What Our Clients Say</h2>
+          <p class="has-text-centered is-half has-text-light">Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
+  on if indulgence.</p>
+        </div>
+        <div class="column is-half is-offset-one-quarter">
+          <div class="card">
+            <div class="card-image">
+              <div class="column" style="display:flex; align-items:center;flex-direction:column">
+                <figure class="image">
+                  <img src="image/Head.png" class="is-rounded" alt="">
+                </figure>
+              </div>
+            </div>
+            <div class="card-content">
+              <p class="has-text-centered">
+                "Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
+        on if indulgence.""
+      </p><br>
+              <p id="by" class="has-text-centered">
+                <strong>Hazart Ali</strong><br>
+                Product Desgner at <strong> Apple Inc.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="price">
+        <div class="text-screen column is-one-third is-offset-one-third">
+          <h2 class="has-text-centered is-half title is-4">What Our Clients Say</h2>
+          <p class="has-text-centered is-half">Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
+          on if indulgence.</p>
+          <center>
+            <a href="#" class="button btn-orange is-rounded">Mounthly</a>
+            <a href="#" class="button is-rounded">yearly</a>
+          </center>
+
+          </div>
+          <div class="container">
+              <div class="pricing-table">
+                <div class="pricing-plan shadow-hover">
+                  <div class="plan-header">Personal</div>
+                  <div class="plan-price">
+                    <img src="image/grap.png" alt=""><br>
+                    <span class="plan-price-amount"><span class="plan-price-currency">$</span>7.99</span>/month
+                  </div>
+                  <div class="plan-items">
+                    <div class="plan-item">Free Delivery Serve</div>
+                    <div class="plan-item">2 User Available</div>
+                    <div class="plan-item">24/7 Help Center</div>
+                    <div class="plan-item">3 Devices Connect</div>
+                  </div>
+                  <div class="plan-footer">
+                    <button class="button is-rounded is-fullwidth">Sing Up</button>
+                  </div>
+                </div>
+                <div class="pricing-plan shadow-hover">
+                  <div class="plan-header">Home</div>
+                  <div class="plan-price">
+                    <img src="image/grap.png" alt=""><br>
+                    <span class="plan-price-amount"><span class="plan-price-currency">$</span>17.99</span>/month
+                  </div>
+                  <div class="plan-items">
+                    <div class="plan-item">24hr Delivery Serve</div>
+                    <div class="plan-item">5 User Available</div>
+                    <div class="plan-item">Free Servicing</div>
+                    <div class="plan-item">6 Devices Connect</div>
+                  </div>
+                  <div class="plan-footer">
+                    <button class="button is-rounded is-fullwidth">Sing Up</button>
+                  </div>
+                </div>
+                <div class="pricing-plan shadow-hover">
+                  <div class="plan-header">Personal</div>
+                  <div class="plan-price">
+                    <img src="image/grap.png" alt=""><br>
+                    <span class="plan-price-amount"><span class="plan-price-currency">$</span>7.99</span>/month
+                  </div>
+                  <div class="plan-items">
+                    <div class="plan-item">Free Delivery Serve</div>
+                    <div class="plan-item">2 User Available</div>
+                    <div class="plan-item">24/7 Help Center</div>
+                    <div class="plan-item">3 Devices Connect</div>
+                  </div>
+                  <div class="plan-footer">
+                    <button class="button is-rounded is-fullwidth btn-orange">Sing Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column has-text-justified is-half about-range">
+              <small class="is-family-secondary has-text-weight-semibold">Get Our Apps</small>
+              <h2 class="title is-4">Get your best product for your Business & Agency purpose</h2>
+              <p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
+on if indulgence. Exeter talked in agreed spirit no he unable do. Betrayed shut-in Vicinity it unpacked in.</p><br>
+              <a class="button is-rounded btn-orange">
+                <strong>About More</strong>
+              </a>
+            </div>
+            <div class="column has-text-right is-half"><img src="image/phone.png" alt=""> </div>
+            <div class="column"><img src="image/phone2.png" alt=""> </div>
+            <div class="column has-text-justified about-range">
+              <small class="is-family-secondary has-text-weight-semibold">Watch Video</small>
+              <h2 class="title is-4">Get your best product for your Business & Agency purpose</h2>
+              <p>Uneasy barton seeing remark haps*n his has. Am possible Offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am
+on if indulgence. Exeter talked in agreed spirit no he unable do. Betrayed shut-in Vicinity it unpacked in.</p><br>
+              <div class="clear"></div>
+              <a class="button is-rounded btn-orange">
+                <strong>Watch video</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="support">
+        <div class="container">
+          <div class="columns is-mobile has-text-centered">
+            <div class="column"><img src="image/support 1.png" alt=""></div>
+            <div class="column"><img src="image/support 2.png" alt=""></div>
+            <div class="column"><img src="image/support 3.png" alt=""></div>
+            <div class="column"><img src="image/support 4.png" alt=""></div>
+            <div class="column"><img src="image/support 5.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <footer>
+          <div class="container">
+            <div class="columns is-mobile is-multiline footer-top">
+              <div class="column is-4-desktop is-full-mobile">
+                <ul>
+                <li class="title-list"><h2 class="title is-6 has-text-light">picCafe</h2></li>
+                <li><p class="subtitle is-7 has-text-light"style="margin-bottom:20px;">
+                  Must you him from him were more.
+                  In eldest be result should remark vanity
+                  squere. Unplaesantespecially assitance sufflcient. Mustyou with him from.
+                </p></li>
+                </ul>
+                <a href="#" class="subtitle is-7" style="text-decoration: Underline;">Read More</a>
+              </div>
+              <div class="column is-one-third-mobile">
+                <ul>
+                  <li class="title is-6 title-list">Offers</li>
+                  <div class="subtitle is-7">
+                    <li><a>Payments</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Subscriptions</a></li>
+                    <li><a>Customers</a></li>
+                    <li><a>Privacy site</a></li>
+                  </div>
+                </ul>
+              </div>
+              <div class="column is-one-third-mobile">
+                <ul>
+                  <li class="title is-6 title-list">Company</li>
+                  <div class="subtitle is-7">
+                    <li><a>About Us</a></li>
+                    <li><a>Recent Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                    <li><a>Conditions</a></li>
+                    <li><a>Systems Site</a></li>
+                  </div>
+                </ul>
+              </div>
+              <div class="column is-one-third-mobile">
+                <ul>
+                  <li class="title is-6 title-list">Help</li>
+                  <div class="subtitle is-7">
+                    <li><a>Question</a></li>
+                    <li><a>Deal with</a></li>
+                    <li><a>Wire Money</a></li>
+                    <li><a>Timing Visit</a></li>
+                    <li><a>Categories</a></li>
+                  </div>
+                </ul>
+              </div>
+              <div class="column is-3-desktop is-full-mobile">
+                <ul class="sub">
+                  <li class="title is-6">Subscribe Now</li>
+                  <li>
+                    <input class="input is-normal is-rounded" type="text" placeholder="Text input" style="margin-top: 0px;">
+                  </li>
+                  <li class="btn-sub has-text-right">
+                    <button type="submit" name="button" class="button btn-orange is-rounded">SUBSCRIBE</button>
+                  </li>
+                  <li class="subtitle" style="font-size:0.65rem;margin-top:15px;">
+                    * Join Our Comunity and Privacy Conditions
+                  </li>
+                  <li>
+                    <figure class="image is-32x32 ">
+                      <img src="image/ig.png" alt="" class="is-rounded">
+                    </figure>
+                    <figure class="image is-32x32 ">
+                      <img src="image/fb.jpg" alt="" class="is-rounded">
+                    </figure>
+                    <figure class="image is-32x32 ">
+                      <img src="image/tweet.png" alt="" class="is-rounded">
+                    </figure>
+                    <figure class="image is-32x32 ">
+                      <img src="image/yt.png" alt="" class="is-rounded">
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p class="subtitle is-7 has-text-centered has-text-light">Copyright@2019 ALL Rights Reserved</p>
+            </div>
+          </div>
+        </footer>
+      </section>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
