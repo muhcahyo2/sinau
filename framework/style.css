@@ -135,7 +135,7 @@ body{
   margin-top: 100px;
 }
 .text-screen h2{
-  padding: 5px;
+  /* padding: 5px; */
 }
 .text-screen p{
   margin-top: 10px;
@@ -225,4 +225,9 @@ li .image{
 }
 .footer-bottom p{
   padding-top: 30px;
+}
+@media screen and (max-width: 992px) {
+  .container{
+    width: 90%;
+  }
 }
