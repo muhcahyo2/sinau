@@ -26,9 +26,10 @@ body{
 .navbar-item{
   color: #fff;
 }
-.navbar-item:hover{
+a.navbar-item:hover{
   color: #fc6203;
-  background: transparent;
+  background: none;
+  text-decoration: underline;
 }
 .btn-orange{
   background: #fc6203;
@@ -66,6 +67,10 @@ body{
   background: transparent;
   color: #fff;
 }
+.banner a:last-child:hover{
+  background: #F7F7F7;
+  color:#fc6203;
+}
 .banner p{
   line-height: 1.6;
 }
@@ -85,6 +90,10 @@ body{
 }
 .spesialis .card{
   transition: 0.3s ease-in;
+}
+.spesialis .image span{
+  color: #a34d1a;
+  font-size: 34px;
 }
 .spesialis .card-content{
   padding-top: 10px;
@@ -118,9 +127,11 @@ body{
   border-radius: 35px;
   display: inline-block;
 }
-.about small img{
+.about small span{
   float: left;
+  margin-top: 10px;
   padding-right: 15px;
+  font-size: 36px;
 }
 .clear{
   clear: both;
@@ -154,12 +165,14 @@ body{
 .feed .card{
   border-radius: 5px;
 }
-.feed img{
+.feed span{
   border: 2px solid #9886F6;
-  max-width: 70px;
-  max-height: 70px;
+  display: block;
+  padding: 5px 15px;
   margin-top: -40px;
   background-color: #fff;
+  border-radius: 50%;
+  font-size: 54px;
 }
 .feed .card p{
   font-size: 16px;
@@ -185,6 +198,10 @@ body{
 }
 .pricing-table .pricing-plan .plan-item {
   background: #fff;
+}
+.plan-price span:first-child{
+  font-size: 40px;
+  color: #20d3ec;
 }
 .support{
   margin-top: 100px;
@@ -229,5 +246,9 @@ li .image{
 @media screen and (max-width: 992px) {
   .container{
     width: 90%;
+  }
+  .custom-column{
+    flex-direction: column-reverse;
+    display: flex;
   }
 }
